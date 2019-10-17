@@ -3,14 +3,14 @@
 return [
 
 	// 网站名称
-	'name' => '我爱你一万年网',
+	'name' => '优品购',
 
 	// 网站的域名
-	'domain' => 'www.52010000.cn',
+	'domain' => 'www.luxiaobo.cn',
 
 	// 网站nav的文字描述
 	'navtext' => '<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
-                  <strong>我爱你一万年</strong>
+                  <strong>找优惠，优品购</strong>
                   <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>',
 
 	// 网站nav的图片地址

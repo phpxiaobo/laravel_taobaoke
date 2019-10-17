@@ -23,7 +23,7 @@ class ChaXunController extends Controller
     public function index()
     {
         $pageInfo['title']       = '淘宝天猫优惠券查询';                                                 // 网页的title
-        $pageInfo['description'] = '本网站提供最新的淘宝天猫优惠券的商品，将此网站先给自己深爱的女友！'; // 网站的description
+        $pageInfo['description'] = '本网站提供最新的淘宝天猫优惠券的商品.'; // 网站的description
 
         // 获取栏目的所有可以显示的信息
         $categoryAllInfo = Category::where('is_show', '是')
@@ -49,7 +49,7 @@ class ChaXunController extends Controller
             return redirect()->route('ChaXunIndex');
         } else {
             $pageInfo['title']       = '淘宝天猫优惠券查询';                                                 // 网页的title
-            $pageInfo['description'] = '本网站提供最新的淘宝天猫优惠券的商品，将此网站先给自己深爱的女友！'; // 网站的description
+            $pageInfo['description'] = '本网站提供最新的淘宝天猫优惠券的商品！'; // 网站的description
             $qw = $q->input('q');
 
             // 获取栏目的所有可以显示的信息
